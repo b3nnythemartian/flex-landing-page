@@ -78,7 +78,7 @@ ul.link-list {
 
 .random-info-container {
     background-color: #FFF;
-    padding: 20px 320px;
+    padding: 80px 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,3 +115,85 @@ ul.link-list {
     text-align: center;
 }
 
+
+.inspiring-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 400px;
+    background-color: #E5E7EB;
+}
+
+.inspiring-container > h1 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0px;
+}
+
+.go-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.go-right > h2 {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 700;
+}
+
+
+.call-to-container {
+    margin: 125px 150px;
+    padding: 50px 75px; 
+    border-radius: 5px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-left > h1 {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #F9FAF8;
+}
+
+.call-left > p {
+    margin: 0px;
+    margin-top: 2px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.call-right {
+    background-color: #3882F6;
+    padding: 12px 45px;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 250px;
+}
+
+.footer > h1 {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px;
+}
